@@ -18,33 +18,33 @@
 
 
 var arDue = {
-  x: ["January", "February", "March"],
-  y: [3832595, 3432667, 5061992],
-  mode: 'lines+markers+text',
-  name: '2021 Processed AR',
-  type: "scatter",
-  tickformat: "$,.2f"
-};
-
-// Create our second trace
-var apDue = {
-  x: ["January", "February", "March"],
-  y: [2135247, 1913709, 2489292],
-  mode: 'lines+markers+text',
-  name: '2021 Processed AP',
-  type: "scatter",
-  tickformat: "$,.2f"
-};
-
-
-
-
-
-
-// The data array consists of both traces
-var data = [arDue, apDue];
-
-
-// Note that we omitted the layout object this time
-// This will use default parameters for the layout
-Plotly.newPlot("plot", data);
+    x: ["January", "February", "March"],
+    y: [3832595, 3432667, 5061992],
+    mode: 'lines+markers+text',
+    name: '2021 Processed AR',
+    type: "scatter",
+    tickformat: "$,.2f"
+  };
+  
+  // Create our second trace
+  var apDue = {
+    x: ["January", "February", "March"],
+    y: [2135247, 1913709, 2489292],
+    mode: 'lines+markers+text',
+    name: '2021 Processed AP',
+    type: "scatter",
+    tickformat: "$,.2f"
+  };
+  
+  
+  
+  
+  
+  
+  // The data array consists of both traces
+  var data = [arDue, apDue];
+  
+  
+  // Note that we omitted the layout object this time
+  // This will use default parameters for the layout
+  Plotly.newPlot("plot", data);
